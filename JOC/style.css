@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    padding: 0%;
+}
+.community{
+    padding-bottom: 40px;
+    padding: 1.5rem;
+}
+.community2{
+    padding-bottom: 80px;
+    line-height: 40px;
+    background-color: rgb(93,182, 182);
+    padding: 1.5rem;
+    color: white;
+}
+.community3{
+    line-height: 20px;
+    padding: 2.2rem;
+    background-color: rgb(70,136,191);
+    border: 0;
+    color: white;
+}
+.why us{
+    padding-bottom: 30px;
+}
+.signup{
+    background-color: rgb(166,245,9);
+    width: 85%;
+    height: 45px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 0;
+    color: white;
+    margin-left: 15px;
+}
+.ms{
+    color: white;
+}
+.pm{
+    color: white;
+}
+.community1{
+    color: rgb(93,182,182);
+    font-weight: bold;
+    padding-bottom: 1.5rem;
+}
+.thirtyday{
+    color: yellowgreen;
+    padding-bottom: 1.2rem;
+}
+.ga{
+    color: darkgray;
+    line-height: 1.5rem;
+}
+.fa{
+    padding-bottom: 1.3rem;
+}
+@media (min-width: 1024px){
+    .community{
+        padding-left: 30px;
+    }
+    .community1{
+        padding-top: 30px;
+        font-size: 40px;
+        padding-bottom: 2.5rem;
+    }
+    .thirtyday{
+        font-size: 30px;
+        padding-bottom: 2rem;
+    }
+    .ga{
+        font-size: 30px;
+        padding-bottom: 4rem;
+        line-height: 35px;
+    }
+    .community2{
+        width: 60%;
+        height: 45vh;
+        line-height: 50px;
+        padding-left: 80px;
+        padding-top: 50px;
+    }
+    .community3{
+        width: 50%;
+        float: right;
+        padding-left: 80px;
+        padding-top: 70px;
+    }
+    .pm1{
+        font-size: 20px;
+    }
+    .pm{
+        font-size: 40px;
+    }
+    .ms{
+        font-size: 30px;
+        margin-top: 20px;
+        font-weight: bold;
+    }
+    .signup{
+        width: 70%;
+    }
+    .fa{
+        font-size: 20px;
+    }
+    .whyus{
+        font-size: 30px;
+        padding-bottom: 3rem;
+        font-weight: bold;
+    }
+    .tutorial{
+        font-size: 25px;
+        line-height: 25px;
+    }
+    .row{
+        display: flex;
+    }
+    .row>section{
+        flex: 1;
+    }
+}
